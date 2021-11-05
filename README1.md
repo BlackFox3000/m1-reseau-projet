@@ -5,6 +5,9 @@ DIA Hamoydy et TINTORRI Floren
 ### 1.1 Topologie et Adressage : 
 Voir les fichiers Vagrantfile et config.sls de chaque VM.
 ### 1.2 Disparition de la VM2 :
+Nous allons faire passer les requêtes de VM1-4 à VM3-4 via le réseau VMx-6
+Pour cela nous allons permettre à VM1-6 et VM3-6 de pouvoir comprendre, convertir, recevoir et 
+envoyer des requêtes en ipv 4 en ipv6. VM2-6 servira à communiquer entre VM2-6 et VM3-6
 
 ## Partie 2 : L'interface virtuelle TUN
 ### 2.1 Création de l'interface : 
